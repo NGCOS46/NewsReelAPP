@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:fontFamily="@font/poppins"
+            android:textSize="30sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="completa este formulario"
+            android:fontFamily="@font/poppins"
+            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="nombre y apellido"
+            android:id="@+id/et_nombre"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="50dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text"
+            android:textSize="15sp"
+            android:padding="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="correo electronico"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/et_email_registration"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="50dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text"
+            android:textSize="15sp"
+            android:padding="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="contraseña"
+            android:id="@+id/et_password_registration"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="50dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text"
+            android:textSize="15sp"
+            android:padding="15dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="fecha de registro"
+            android:id="@+id/et_registration_date"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edit_text"
+            android:inputType="textEmailAddress"
+            android:textSize="15sp"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:fontFamily="@font/poppins"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:backgroundTint="@color/btn_color"/>
+        <TextView
+            android:id="@+id/tv_go_to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="volver al login"
+            android:fontFamily="@font/poppins"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
